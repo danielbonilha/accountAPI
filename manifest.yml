@@ -1,0 +1,10 @@
+---
+applications:
+- name: accounts-api-danielbonilha
+  instances: 1
+  memory: 1G
+  disk_quota: 256M
+  path: target/accounts-api-1.0.jar
+  services:
+  - account-api-db
+  - account-api-logs
