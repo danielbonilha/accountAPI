@@ -29,7 +29,7 @@ Daniel Bonilha;
 | Usado para excluir um objeto
 
 | `PATCH`
-| Usado para atualizar parcialmente um objeto
+| Usado para enviar um comando de mudança de estado
 |===
 
 
@@ -109,7 +109,7 @@ include::{snippets}/accounts/get/sucess/http-response.adoc[]
 [[resource-account-patch]]
 === PATCH ACCOUNT
 
-Edita um objeto do tipo `Account`
+Emite um comando para impactar o saldo de uma `Account`
 
 ==== URL
 
